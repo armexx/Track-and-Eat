@@ -13,9 +13,6 @@
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "com.trackandeat.app"
     },
-    "cordova-plugin-media-capture": {
-      "PACKAGE_NAME": "com.trackandeat.app"
-    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.trackandeat.app"
     },
@@ -31,13 +28,16 @@
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.trackandeat.app"
     },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.trackandeat.app"
+    },
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "com.trackandeat.app"
     },
-    "cordova-plugin-vibration": {
+    "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "com.trackandeat.app"
     },
-    "cordova-plugin-splashscreen": {
+    "cordova-plugin-vibration": {
       "PACKAGE_NAME": "com.trackandeat.app"
     },
     "cordova-plugin-whitelist": {
@@ -45,6 +45,9 @@
     }
   },
   "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.trackandeat.app"
+    },
     "cordova-plugin-file": {
       "PACKAGE_NAME": "com.trackandeat.app"
     }
